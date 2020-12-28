@@ -1,0 +1,45 @@
+.particles {
+  width: 100%;
+}
+
+.particlesWrapper {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+}
+
+.textWrapper {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 100px 0 100px 80px;
+  font-family: "Sulphur Point", sans-serif;
+  line-height: 1.1;
+}
+.hiText {
+  font-size: 380px;
+  font-weight: bold;
+}
+
+.callMeGabiText {
+  font-size: 100px;
+  padding-left: 30px;
+}
+
+.gabiCodeText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.codingSign {
+  font-size: 50px;
+}
+
+.codingSignRight {
+  margin-left: 30px;
+  font-size: 50px;
+}
