@@ -5,7 +5,8 @@ import photoGabi from "./fotoGabi.jpg";
 export function Presentation() {
   return (
     <div className="wrapperPresentationSection">
-      <div className="clipPathVectorPresentationSection" />
+      <div className="clipPathVectorPresentationSection" />{" "}
+      <div className="textTitlePresentation">About me.</div>
       <div className="wrapperWhoIam">
         <div className="containerPhotoPresentation">
           <img
@@ -15,7 +16,6 @@ export function Presentation() {
           />
         </div>
         <div className="textWrapperPresentation">
-          <div className="textTitlePresentation">Who am I?</div>
           <div className="textParagraphPresentation">
             Besides being a cat lover, I define myself as a multifacetic person.
             Graduated as a Business Administrator & life coach, and after 4

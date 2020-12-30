@@ -1,22 +1,12 @@
 import React from "react";
-import "./Greetings.css";
+import "./ProgrammingSkills.css";
 import Particles from "react-tsparticles";
 
-export function Greetings() {
+export function ProgrammingSkills() {
   return (
-    <div className="wrapperHiCallMeGabi">
-      <div className="textWrapper">
-        <div className="hiText"> Hi!</div>
-        <div className="callMeGabiText">
-          Call me <br />
-          <div className="gabiCodeText">
-            <div className="codingSign"> {"<"}</div>
-            <div>Gabi</div>
-            <div className="codingSignRight"> {" />"}</div>
-          </div>
-        </div>
-      </div>
-      <div className="particlesWrapper">
+    <div className="programmingSkillsWrapper">
+      <div className="clipPathVectorProgrammingSkillsSection" />
+      <div className="particlesWrapperProgramming">
         <Particles
           className="particles"
           id="tsparticles"
@@ -144,6 +134,16 @@ export function Greetings() {
             },
           }}
         />
+      </div>
+      <div className="skillBoxContainer">
+        <div className="skillBox skillBox1">React</div>
+        <div className="skillBox skillBox2">JavaScript</div>
+        <div className="skillBox skillBox3">Node Js</div>
+        <div className="skillBox skillBox4">TypeScript</div>
+        <div className="skillBox skillBox5">Bootstrap</div>
+        <div className="skillBox skillBox6">CSS 3</div>
+        <div className="skillBox skillBox7">HTML 5</div>
+        <div className="skillBox skillBox8">Git</div>
       </div>
     </div>
   );
