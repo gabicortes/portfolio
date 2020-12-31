@@ -138,7 +138,7 @@ export function ProgrammingSkills() {
       <div className="skillBoxContainer">
         <div className="skillBox skillBox1">React</div>
         <div className="skillBox skillBox2">JavaScript</div>
-        <div className="skillBox skillBox3">Node Js</div>
+        <div className="skillBox skillBox3">Node</div>
         <div className="skillBox skillBox4">TypeScript</div>
         <div className="skillBox skillBox5">Bootstrap</div>
         <div className="skillBox skillBox6">CSS 3</div>

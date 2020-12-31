@@ -11,7 +11,7 @@
 }
 
 .wrapperTitle {
-  padding: 80px 0;
+  padding: 0 0 80px;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -40,7 +40,7 @@
   border-radius: 100%;
   color: #2e294e;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #2e294e;
 }
 
 .titleVectorIcon {

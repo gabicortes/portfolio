@@ -1,0 +1,64 @@
+.contactWrapper {
+  background-color: #2e294e;
+}
+.clipPathVectorContactSection {
+  width: 100%;
+  height: 100px;
+  -webkit-clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
+  clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
+  background-color: #dadada;
+}
+
+.textSectionContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContactSection {
+  padding: 0 0 60px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.textBehindTitleContactSection {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  display: inline-block;
+  background-color: #2e294e;
+  width: max-content;
+  margin: 0 0 60px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.iconsSocialMediaWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.iconSocialMedia {
+  color: white;
+  font-size: 31px;
+  margin: 0 24px;
+  padding: 9px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.iconSocialMedia:hover {
+  color: #2e294e;
+  background-color: white;
+  border: 1px solid #e37971;
+}
+
+.hyperLinkToSocialMedia {
+  text-decoration: none;
+}
