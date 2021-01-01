@@ -5,16 +5,46 @@ import { MyOffer } from "./Home/MyOffer/MyOffer";
 import { ProgrammingSkills } from "./Home/ProgrammingSkills/ProgrammingSkills";
 import { Projects } from "./Home/Projects/Projects";
 import { Contact } from "./Home/Contact/Contact";
+import { NavBar } from "./NavBar/NavBar";
+import { FloatingButton } from "./FloatingButton/FloatingButton";
+import { useRef } from "react";
+import { BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { IoMdContacts } from "react-icons/io";
 
 function App() {
+  const firstButtonSectionRef = useRef(null);
+  const secondButtonSectionRef = useRef(null);
+  const thirdButtonSectionRef = useRef(null);
+  const fourthButtonSectionRef = useRef(null);
+
   return (
     <div className="App">
       <Greetings />
-      <Presentation />
-      <MyOffer />
+      <div ref={firstButtonSectionRef}>
+        <Presentation />
+      </div>
+      <div ref={secondButtonSectionRef}>
+        <MyOffer />
+      </div>
       <ProgrammingSkills />
-      <Projects />
-      <Contact />
+      <div ref={thirdButtonSectionRef}>
+        <Projects />
+      </div>
+      <div ref={fourthButtonSectionRef}>
+        <Contact />
+      </div>
+      <NavBar
+        firstButton={<BsFillPersonLinesFill />}
+        firstButtonSectionRef={firstButtonSectionRef}
+        secondButton={<BsCodeSlash />}
+        secondButtonSectionRef={secondButtonSectionRef}
+        thirdButton={<AiOutlineFundProjectionScreen />}
+        thirdButtonSectionRef={thirdButtonSectionRef}
+        fourthButton={<IoMdContacts />}
+        fourthButtonSectionRef={fourthButtonSectionRef}
+      />
+      <FloatingButton />
     </div>
   );
 }

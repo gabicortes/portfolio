@@ -1,0 +1,40 @@
+.floatingButtonHide,
+.floatingButtonShow {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  font-size: 38px;
+  color: #0892a5;
+  border-radius: 100%;
+  transition: opacity 1s, box-shadow 1s;
+  box-shadow: 2px 1px 14px dimgrey;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.floatingButtonHide {
+  opacity: 0;
+}
+
+.floatingButtonShow {
+  opacity: 0.5;
+}
+
+.floatingButtonShow:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .floatingButtonHide,
+  .floatingButtonShow {
+    font-size: 23px;
+    padding: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .floatingButtonShow {
+    font-size: 19px;
+    padding: 9px;
+  }
+}

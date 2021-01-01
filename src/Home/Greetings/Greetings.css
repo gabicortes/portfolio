@@ -15,12 +15,12 @@
   flex-direction: row;
   align-items: center;
   color: white;
-  padding: 100px 0 100px 80px;
+  padding: 100px 0 100px 120px;
   font-family: "Sulphur Point", sans-serif;
   line-height: 1.1;
 }
 .hiText {
-  font-size: 380px;
+  font-size: 450px;
   font-weight: bold;
 }
 
