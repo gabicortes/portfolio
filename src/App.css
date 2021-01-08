@@ -1,0 +1,10 @@
+body {
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+
+.iconVectorNavBar {
+  height: 27px;
+  width: 27px;
+  text-align: center;
+}

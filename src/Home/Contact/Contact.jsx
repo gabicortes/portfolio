@@ -1,6 +1,11 @@
 import React from "react";
 import "./Contact.css";
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineMail,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
 
 export function Contact() {
   return (
@@ -32,6 +37,13 @@ export function Contact() {
             className="hyperLinkToSocialMedia"
           >
             <AiOutlineMail className="iconSocialMedia" />
+          </a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=447523616386"
+            className="hyperLinkToSocialMedia"
+          >
+            <AiOutlineWhatsApp className="iconSocialMedia" />
           </a>
         </div>
       </div>

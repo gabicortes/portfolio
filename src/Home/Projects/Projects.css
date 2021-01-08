@@ -25,11 +25,24 @@
   padding-bottom: 60px;
 }
 
+.imageBitacora,
+.imageHouseOfDonuts {
+  transition: height 1s ease-in-out, width 1s ease-in-out,
+    opacity 1s ease-in-out;
+}
+
 .imageProjects {
   border-radius: 100%;
   height: 300px;
   width: 300px;
-  transition: transform 0.5s ease;
+  opacity: 1;
+}
+
+.imageCircleProjectSmall {
+  height: 70px;
+  width: auto;
+  border-radius: 100%;
+  opacity: 0;
 }
 
 .projectContainer {
@@ -83,3 +96,123 @@
   filter: brightness(15%);
 }
 
+.houseOfDonutsHideWhileBitacoraOpen {
+  display: none;
+}
+
+.bitacoraHideWhileHouseOpen {
+  display: none;
+}
+
+.buttonBackShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #2e294e;
+  justify-content: flex-end;
+  font-size: 17px;
+  font-weight: 600;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.textButtonBack {
+  padding-left: 5px;
+}
+
+.iconButtonBack {
+  font-size: 25px;
+}
+
+.carousel-project-hidden {
+  display: none;
+}
+
+.carousel-project-show {
+  display: block;
+  max-width: 80%;
+}
+
+.carouselProject {
+  transition: display 1s ease-in;
+}
+
+.slideBox {
+  color: #2e294e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.slideActive {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  max-height: 450px;
+  border-radius: 22px;
+}
+
+.rigth-section-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  padding-left: 30px;
+}
+
+.arrowsBoxSlide {
+  color: #2e294e;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.arrowWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-arrow,
+.right-arrow {
+  height: 45px;
+  width: auto;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.titleSlide {
+  text-align: left;
+  font-size: 47px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.descriptionProjectSlide {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.hyperlinkToProjectWebsite {
+  color: #2e294e;
+  font-size: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  padding: 7px 12px;
+  background-color: white;
+  width: max-content;
+  border-radius: 22px;
+  border: 1px solid #2e294e;
+}
+
+.hyperlinkToProjectWebsite:hover {
+  background-color: #2e294e;
+  color: white;
+  border: 1px solid white;
+}

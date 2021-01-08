@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./FloatingButton.css";
-import { IoIosArrowDropupCircle } from "react-icons/io";
+import { TiArrowUpThick } from "react-icons/ti";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
 export function FloatingButton() {
@@ -26,7 +26,7 @@ export function FloatingButton() {
 
   return (
     <div onClick={handleClick}>
-      <IoIosArrowDropupCircle className={floatingButtonClass} />
+      <TiArrowUpThick className={floatingButtonClass} />
     </div>
   );
 }

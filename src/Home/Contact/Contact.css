@@ -33,7 +33,7 @@
   background-color: #2e294e;
   width: max-content;
   margin: 0 0 60px;
-  border-radius: 30px;
+  border-radius: 22px;
   border: 1px solid white;
 }
 
@@ -47,16 +47,16 @@
 .iconSocialMedia {
   color: white;
   font-size: 31px;
-  margin: 0 24px;
+  margin: 0 16px;
   padding: 9px;
-  border-radius: 100%;
+  border-radius: 22px;
   border: 1px solid white;
 }
 
 .iconSocialMedia:hover {
   color: #2e294e;
   background-color: white;
-  border: 1px solid #e37971;
+  border: 1px solid #0892a5;
 }
 
 .hyperLinkToSocialMedia {

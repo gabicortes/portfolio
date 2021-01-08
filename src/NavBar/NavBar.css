@@ -7,25 +7,29 @@
   left: 20px;
 }
 
-.buttonNavBarShow {
-  color: white;
-  background-color: #0892a5;
-  border-radius: 100%;
+.buttonNavBar {
+  margin: 6px;
+  cursor: pointer;
+  opacity: 0.5;
+  color: #0892a5;
+  background-color: transparent;
   border: 1px solid white;
   width: max-content;
-  margin: 6px;
   font-weight: 800;
-  opacity: 0.5;
-  height: 20px;
-  width: 20px;
-  padding: 10px;
+  height: 27px;
+  width: 27px;
   text-align: center;
   transition: opacity 1s, box-shadow 1s;
   box-shadow: 2px 1px 14px dimgrey;
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 10px;
+  display: block;
 }
 
 .navBarButtonHide {
   opacity: 0;
+  display: none;
 }
 
 .buttonIndividualWrapper {
@@ -35,13 +39,15 @@
 }
 
 .buttonNavBarOnHover {
-  color: transparent;
+  display: none;
   padding: 5px;
-  font-size: 20px;
+  font-size: 19px;
   margin-left: 5px;
+  text-align: center;
 }
 
-.buttonNavBarShow:hover ~ .buttonNavBarOnHover {
+.buttonNavBar:hover ~ .buttonNavBarOnHover {
+  display: block;
   background-color: rgba(255, 255, 255, 0.7);
   color: #0892a5;
   font-weight: 800;

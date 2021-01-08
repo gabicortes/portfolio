@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+import classNames from "classnames";
 
 export function NavBar(props) {
-  const [navBarButtonClass, setNavBarButtonClass] = useState(
-    "navBarButtonHide"
-  );
+  const [hideButtonNavBar, setHideButtonNavBar] = useState(true);
 
   const scrollToRef = (ref) =>
     window.scrollTo({
@@ -16,9 +15,9 @@ export function NavBar(props) {
 
   useScrollPosition((position) => {
     if (position.currPos.y < -650) {
-      setNavBarButtonClass("buttonNavBarShow");
+      setHideButtonNavBar(false);
     } else {
-      setNavBarButtonClass("navBarButtonHide");
+      setHideButtonNavBar(true);
     }
   });
 
@@ -37,29 +36,44 @@ export function NavBar(props) {
     scrollToRef(props.fourthButtonSectionRef);
   }
 
+    function handleFifthButtonClick() {
+      scrollToRef(props.fifthButtonSectionRef);
+    }
+
+  const buttonClassnames = classNames(
+    "buttonNavBar",
+    hideButtonNavBar && "navBarButtonHide"
+  );
+
   return (
     <div className="buttonsNavBarWrapper">
       <div className="buttonIndividualWrapper">
-        <div onClick={handleFirstButtonClick} className={navBarButtonClass}>
+        <div onClick={handleFirstButtonClick} className={buttonClassnames}>
           {props.firstButton}
         </div>
         <div className="buttonNavBarOnHover">About Me.</div>
       </div>
       <div className="buttonIndividualWrapper">
-        <div onClick={handleSecondButtonClick} className={navBarButtonClass}>
+        <div onClick={handleSecondButtonClick} className={buttonClassnames}>
           {props.secondButton}
         </div>
-        <div className="buttonNavBarOnHover">Programming Skills.</div>
+        <div className="buttonNavBarOnHover">Programming skills.</div>
       </div>
       <div className="buttonIndividualWrapper">
-        <div onClick={handleThirdButtonClick} className={navBarButtonClass}>
+        <div onClick={handleThirdButtonClick} className={buttonClassnames}>
           {props.thirdButton}
+        </div>
+        <div className="buttonNavBarOnHover">Technologies.</div>
+      </div>
+      <div className="buttonIndividualWrapper">
+        <div onClick={handleFourthButtonClick} className={buttonClassnames}>
+          {props.fourthButton}
         </div>
         <div className="buttonNavBarOnHover">Projects.</div>
       </div>
       <div className="buttonIndividualWrapper">
-        <div onClick={handleFourthButtonClick} className={navBarButtonClass}>
-          {props.fourthButton}
+        <div onClick={handleFifthButtonClick} className={buttonClassnames}>
+          {props.fifthButton}
         </div>
         <div className="buttonNavBarOnHover">Contact me.</div>
       </div>

@@ -2,14 +2,15 @@
 .floatingButtonShow {
   position: fixed;
   bottom: 3%;
-  right: 3%;
-  font-size: 38px;
+  right: 1%;
+  font-size: 40px;
   color: #0892a5;
-  border-radius: 100%;
+  border-radius: 22px;
   transition: opacity 1s, box-shadow 1s;
   box-shadow: 2px 1px 14px dimgrey;
   cursor: pointer;
   border: 1px solid white;
+  padding: 5px;
 }
 
 .floatingButtonHide {

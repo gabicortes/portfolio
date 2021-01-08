@@ -18,6 +18,7 @@
   padding: 100px 0 100px 120px;
   font-family: "Sulphur Point", sans-serif;
   line-height: 1.1;
+  user-select: none;
 }
 .hiText {
   font-size: 450px;
