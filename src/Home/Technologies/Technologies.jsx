@@ -1,6 +1,8 @@
 import React from "react";
 import "./Technologies.css";
 import Particles from "react-tsparticles";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function Technologies() {
   return (
@@ -11,27 +13,27 @@ export function Technologies() {
           className="particles"
           id="tsparticles"
           options={{
-            fpsLimit: 60,
+            fpsLimit: 100,
             particles: {
               number: {
-                value: 60,
+                value: 150,
                 density: {
                   enable: true,
                   area: 800,
                 },
               },
               color: {
-                value: "F3F9D2",
+                value: "#635150",
               },
 
               shape: {
-                type: "circle",
+                type: "square",
                 stroke: {
                   width: 0,
                   color: "#000000",
                 },
                 polygon: {
-                  sides: 5,
+                  sides: 8,
                 },
                 image: {
                   src: "https://cdn.matteobruni.it/images/particles/github.svg",
@@ -50,26 +52,27 @@ export function Technologies() {
                 },
               },
               size: {
-                value: 40,
-                random: { enable: true, minimumValue: 5 },
+                value: 5,
+                random: { enable: true, minimumValue: 1 },
                 animation: {
                   enable: false,
-                  speed: 5,
-                  minimumValue: 5,
+                  speed: 3,
+                  minimumValue: 1,
                   sync: false,
                 },
               },
               lineLinked: {
-                enable: false,
-                distance: 150,
-                color: "#ffffff",
-                opacity: 0.4,
+                frequency: 1,
+                enable: true,
+                distance: 100,
+                color: "random",
+                opacity: 1,
                 width: 1,
               },
               move: {
                 collisions: true,
                 enable: true,
-                speed: 10,
+                speed: 2,
                 direction: "none",
                 random: false,
                 straight: false,
@@ -134,8 +137,16 @@ export function Technologies() {
             },
           }}
         />
-      </div>
-      <div className="titleTechnologies">Technologies.</div>
+      </div>{" "}
+      <ScrollAnimation
+        animateIn="animate__slideInRight"
+        animatePreScroll={false}
+        animateOnce={true}
+        className="textTitlePresentation animate__animated
+        animate__animate__slideInRight"
+      >
+        <div className="titleTechnologies">Technologies.</div>
+      </ScrollAnimation>
       <div className="technologiesBoxContainer">
         <div className="technologiesBox technologiesBox1">React</div>
         <div className="technologiesBox technologiesBox2">JavaScript</div>

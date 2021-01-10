@@ -4,13 +4,14 @@
   bottom: 3%;
   right: 1%;
   font-size: 40px;
-  color: #0892a5;
+  color: #1d837c;
   border-radius: 22px;
   transition: opacity 1s, box-shadow 1s;
   box-shadow: 2px 1px 14px dimgrey;
   cursor: pointer;
   border: 1px solid white;
   padding: 5px;
+  transform: scale(0.6);
 }
 
 .floatingButtonHide {
@@ -23,19 +24,5 @@
 
 .floatingButtonShow:hover {
   opacity: 1;
-}
-
-@media (max-width: 1024px) {
-  .floatingButtonHide,
-  .floatingButtonShow {
-    font-size: 23px;
-    padding: 13px;
-  }
-}
-
-@media (max-width: 320px) {
-  .floatingButtonShow {
-    font-size: 19px;
-    padding: 9px;
-  }
+  transform: scale(1);
 }

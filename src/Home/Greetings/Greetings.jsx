@@ -21,27 +21,27 @@ export function Greetings() {
           className="particles"
           id="tsparticles"
           options={{
-            fpsLimit: 60,
+            fpsLimit: 100,
             particles: {
               number: {
-                value: 60,
+                value: 150,
                 density: {
                   enable: true,
                   area: 800,
                 },
               },
               color: {
-                value: "F3F9D2",
+                value: "#635150",
               },
 
               shape: {
-                type: "circle",
+                type: "square",
                 stroke: {
                   width: 0,
                   color: "#000000",
                 },
                 polygon: {
-                  sides: 5,
+                  sides: 8,
                 },
                 image: {
                   src: "https://cdn.matteobruni.it/images/particles/github.svg",
@@ -60,26 +60,27 @@ export function Greetings() {
                 },
               },
               size: {
-                value: 40,
-                random: { enable: true, minimumValue: 5 },
+                value: 5,
+                random: { enable: true, minimumValue: 1 },
                 animation: {
                   enable: false,
-                  speed: 5,
-                  minimumValue: 5,
+                  speed: 3,
+                  minimumValue: 1,
                   sync: false,
                 },
               },
               lineLinked: {
-                enable: false,
-                distance: 150,
-                color: "#ffffff",
-                opacity: 0.4,
+                frequency: 1,
+                enable: true,
+                distance: 100,
+                color: "random",
+                opacity: 1,
                 width: 1,
               },
               move: {
                 collisions: true,
                 enable: true,
-                speed: 10,
+                speed: 2,
                 direction: "none",
                 random: false,
                 straight: false,

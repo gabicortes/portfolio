@@ -5,13 +5,19 @@
   z-index: 2;
   top: 25%;
   left: 20px;
+  transform: scale(0.6);
+  transition: scale 2s ease-in-out;
+}
+
+.buttonsNavBarWrapper:hover {
+  transform: scale(1);
 }
 
 .buttonNavBar {
   margin: 6px;
   cursor: pointer;
   opacity: 0.5;
-  color: #0892a5;
+  color: #1d837c;
   background-color: transparent;
   border: 1px solid white;
   width: max-content;
@@ -49,7 +55,7 @@
 .buttonNavBar:hover ~ .buttonNavBarOnHover {
   display: block;
   background-color: rgba(255, 255, 255, 0.7);
-  color: #0892a5;
+  color: #1d837c;
   font-weight: 800;
   border-radius: 10px;
   font-size: 15px;

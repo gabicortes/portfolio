@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0 50px;
 }
 
 .clipPathVectorPresentationSection {
@@ -31,7 +31,7 @@
 }
 
 .textWrapperPresentation {
-  width: 35%;
+  width: 40%;
   color: #2e294e;
 }
 .textTitlePresentation {
@@ -43,6 +43,13 @@
 
 .textParagraphPresentation {
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.6px;
+  font-size: 18px;
+}
+
+.aboutMeWords {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
