@@ -5,9 +5,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  padding: 100px 0 50px;
+  justify-content: center;
+  width: 90%;
+  padding: 100px 5% 50px;
 }
 
 .clipPathVectorPresentationSection {
@@ -19,7 +19,7 @@
 }
 
 .containerPhotoPresentation {
-  width: 40%;
+  width: 45%;
   display: flex;
   justify-content: center;
 }
@@ -31,7 +31,7 @@
 }
 
 .textWrapperPresentation {
-  width: 40%;
+  width: 45%;
   color: #2e294e;
 }
 .textTitlePresentation {
@@ -52,4 +52,59 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .photoGabiPresentation {
+    height: 320px;
+  }
+  .textParagraphPresentation {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .clipPathVectorPresentationSection {
+    height: 75px;
+  }
+  .photoGabiPresentation {
+    height: 250px;
+  }
+  .textParagraphPresentation {
+    font-size: 14px;
+  }
+  .wrapperWhoIam {
+    justify-content: space-evenly;
+    padding: 100px 7% 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .clipPathVectorPresentationSection {
+    height: 75px;
+  }
+  .photoGabiPresentation {
+    height: 250px;
+  }
+
+  .textWrapperPresentation {
+    width: 90%;
+  }
+  .textParagraphPresentation {
+    font-size: 17px;
+    padding: 40px 5% 0;
+    width: 90%;
+    text-align: center;
+  }
+  .wrapperWhoIam {
+    padding: 100px 5% 50px;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .textTitlePresentation {
+    font-size: 40px;
+  }
 }

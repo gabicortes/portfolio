@@ -5,32 +5,26 @@
   z-index: 2;
   top: 25%;
   left: 20px;
-  transform: scale(0.6);
-  transition: scale 2s ease-in-out;
-}
-
-.buttonsNavBarWrapper:hover {
-  transform: scale(1);
 }
 
 .buttonNavBar {
-  margin: 6px;
   cursor: pointer;
   opacity: 0.5;
-  color: #1d837c;
-  background-color: transparent;
+  color: white;
+  background-color: #a35752;
   border: 1px solid white;
   width: max-content;
   font-weight: 800;
   height: 27px;
   width: 27px;
   text-align: center;
-  transition: opacity 1s, box-shadow 1s;
   box-shadow: 2px 1px 14px dimgrey;
   cursor: pointer;
   border-radius: 22px;
   padding: 10px;
   display: block;
+  transform: scale(0.6);
+  transition: transform 0.3s ease-in-out, opacity 1s, box-shadow 1s;
 }
 
 .navBarButtonHide {
@@ -50,17 +44,132 @@
   font-size: 19px;
   margin-left: 5px;
   text-align: center;
-}
-
-.buttonNavBar:hover ~ .buttonNavBarOnHover {
-  display: block;
   background-color: rgba(255, 255, 255, 0.7);
-  color: #1d837c;
+  color: #a35752;
   font-weight: 800;
   border-radius: 10px;
   font-size: 15px;
 }
 
-.buttonNavBar:hover {
+.firstButton:hover {
   opacity: 1;
+  transform: scale(1);
+}
+
+.firstButton:hover ~ .buttonNavBarOnHover1 {
+  display: block;
+}
+
+.secondButton:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.secondButton:hover ~ .buttonNavBarOnHover2 {
+  display: block;
+}
+
+.thirdButton:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.thirdButton:hover ~ .buttonNavBarOnHover3 {
+  display: block;
+}
+.fourthButton:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+.fourthButton:hover ~ .buttonNavBarOnHover4 {
+  display: block;
+}
+.fifthButton:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fifthButton:hover ~ .buttonNavBarOnHover5 {
+  display: block;
+}
+
+.burgerMenuVector {
+  display: none;
+  background-color: #a35752;
+  color: white;
+  padding: 6px;
+  border-radius: 22px;
+  border: 1px solid white;
+  opacity: 0.5;
+  width: 17px;
+  height: 17px;
+  position: fixed;
+  top: 100px;
+  left: 7px;
+}
+
+.burgerMenu {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.buttonBurgerNavBar {
+  cursor: pointer;
+  color: white;
+  background-color: #a35752;
+  border: 1px solid white;
+  width: max-content;
+  font-weight: 800;
+  height: 27px;
+  width: 27px;
+  text-align: center;
+  box-shadow: 2px 1px 14px dimgrey;
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 10px;
+  display: block;
+  transform: scale(0.6);
+  transition: transform 0.3s ease-in-out, opacity 1s, box-shadow 1s;
+}
+.openMenuWrapper {
+  opacity: 1;
+  transition: all 1s ease;
+  top: 0px;
+}
+
+.closedMenuWrapper {
+  opacity: 0;
+  transition: all 1s ease;
+  position: fixed;
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .buttonIndividualWrapper {
+    display: none;
+  }
+
+  .burgerMenuVector {
+    display: block;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .burgerMenu {
+    display: flex;
+    flex-direction: column;
+    left: -22px;
+    top: 3px;
+  }
+  .burgerWrapper {
+    display: block;
+    opacity: 0.7;
+    transition: opacity 1s ease-in-out;
+  }
+  .burgerWrapperHidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
 }

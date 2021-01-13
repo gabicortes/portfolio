@@ -31,7 +31,7 @@ export function Greetings() {
                 },
               },
               color: {
-                value: "#635150",
+                value: "#ffffff",
               },
 
               shape: {
@@ -50,7 +50,7 @@ export function Greetings() {
                 },
               },
               opacity: {
-                value: 0.2,
+                value: 0.5,
                 random: false,
                 animation: {
                   enable: false,
@@ -74,7 +74,7 @@ export function Greetings() {
                 enable: true,
                 distance: 100,
                 color: "random",
-                opacity: 1,
+                opacity: 0.3,
                 width: 1,
               },
               move: {

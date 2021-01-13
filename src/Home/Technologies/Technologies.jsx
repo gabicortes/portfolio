@@ -19,11 +19,11 @@ export function Technologies() {
                 value: 150,
                 density: {
                   enable: true,
-                  area: 800,
+                  area: 1200,
                 },
               },
               color: {
-                value: "#635150",
+                value: "#ffffff",
               },
 
               shape: {
@@ -66,7 +66,7 @@ export function Technologies() {
                 enable: true,
                 distance: 100,
                 color: "random",
-                opacity: 1,
+                opacity: 0.3,
                 width: 1,
               },
               move: {
@@ -133,11 +133,11 @@ export function Technologies() {
               image: "",
               position: "50% 50%",
               repeat: "no-repeat",
-              size: "cover",
+              size: "100%",
             },
           }}
         />
-      </div>{" "}
+      </div>
       <ScrollAnimation
         animateIn="animate__slideInRight"
         animatePreScroll={false}

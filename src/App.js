@@ -12,6 +12,7 @@ import { BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { IoMdContacts } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
+import { Foot } from "./Home/Foot/Foot";
 
 function App() {
   const firstButtonSectionRef = useRef(null);
@@ -37,6 +38,9 @@ function App() {
       </div>
       <div ref={fifthButtonSectionRef}>
         <Contact />
+      </div>
+      <div>
+        <Foot />
       </div>
       <NavBar
         firstButton={<BsFillPersonLinesFill className="iconVectorNavBar" />}

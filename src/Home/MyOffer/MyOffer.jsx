@@ -28,7 +28,7 @@ export function MyOffer() {
         >
           <div className="circleWrapper">
             <HiLightBulb className="vectorIcon" />
-            <div className="titleVectorIcon">Design out of the Box</div>
+            <div className="titleVectorIcon">Out-of-the-box Design</div>
             <div className="textVectorIcon">
               I love making great User-friendly Apps using creative resources.
             </div>
@@ -45,8 +45,8 @@ export function MyOffer() {
             <MdImportantDevices className="vectorIcon" />
             <div className="titleVectorIcon">Responsive</div>
             <div className="textVectorIcon">
-              All of the websites I create are available to be displayed in
-              every device.
+              All the websites I create are available to be displayed in every
+              device.
             </div>
           </div>
         </ScrollAnimation>
@@ -61,7 +61,7 @@ export function MyOffer() {
             <HiCode className="vectorIcon" />
             <div className="titleVectorIcon">Scalable Coding</div>
             <div className="textVectorIcon">
-              High quality coding in order to be reused it when required.
+              High quality coding that allows efficient reusability.
             </div>
           </div>
         </ScrollAnimation>

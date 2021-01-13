@@ -146,32 +146,43 @@ export function Projects() {
               index === current && (
                 <Fragment>
                   <div>{buttonGoBack}</div>
-                  <div className="slideBox">
-                    <TiArrowLeftThick
-                      className="left-arrow"
-                      onClick={prevSlide}
-                    />
-                    <img className="slideActive" src={slide.image} />
-                    <div className="rigth-section-slide">
-                      <div className="titleSlide">{slide.title}</div>
-                      <div className="descriptionProjectSlide">
-                        {slide.description}
-                      </div>
-                      {slide.option && (
-                        <a
-                          className="hyperlinkToProjectWebsite"
-                          style={{ textDecoration: "none" }}
-                          href={slide.href}
-                          target="_blank"
-                        >
-                          {slide.option}
-                        </a>
-                      )}
+                  <div className="slideBoxIncludingButtons">
+                    <div className="arrowContainer">
+                      <TiArrowLeftThick
+                        className="left-arrow"
+                        onClick={prevSlide}
+                      />
                     </div>
-                    <TiArrowRightThick
-                      className="right-arrow"
-                      onClick={nextSlide}
-                    />
+
+                    <div className="slidesWrapper">
+                      <div className="imageSlideWrapper">
+                        <img className="slideActive" src={slide.image} />
+                      </div>
+
+                      <div className="rigth-section-slide">
+                        <div className="titleSlide">{slide.title}</div>
+                        <div className="descriptionProjectSlide">
+                          {slide.description}
+                        </div>
+                        {slide.option && (
+                          <a
+                            className="hyperlinkToProjectWebsite"
+                            style={{ textDecoration: "none" }}
+                            href={slide.href}
+                            target="_blank"
+                          >
+                            {slide.option}
+                          </a>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="arrowContainer">
+                      <TiArrowRightThick
+                        className="right-arrow"
+                        onClick={nextSlide}
+                      />
+                    </div>
                   </div>
                 </Fragment>
               )
@@ -184,32 +195,40 @@ export function Projects() {
               index === current && (
                 <Fragment>
                   <div>{buttonGoBack}</div>
-                  <div className="slideBox">
-                    <TiArrowLeftThick
-                      className="left-arrow"
-                      onClick={prevSlide}
-                    />
-                    <img className="slideActive" src={slide.image} />
-                    <div className="rigth-section-slide">
-                      <div className="titleSlide">{slide.title}</div>
-                      <div className="descriptionProjectSlide">
-                        {slide.description}
-                      </div>
-                      {slide.option && (
-                        <a
-                          className="hyperlinkToProjectWebsite"
-                          style={{ textDecoration: "none" }}
-                          href={slide.href}
-                          target="_blank"
-                        >
-                          {slide.option}
-                        </a>
-                      )}
+                  <div className="slideBoxIncludingButtons">
+                    <div className="arrowContainer">
+                      <TiArrowLeftThick
+                        className="left-arrow"
+                        onClick={prevSlide}
+                      />
                     </div>
-                    <TiArrowRightThick
-                      className="right-arrow"
-                      onClick={nextSlide}
-                    />
+                    <div className="slidesWrapper">
+                      <div className="imageSlideWrapper">
+                        <img className="slideActive" src={slide.image} />
+                      </div>
+                      <div className="rigth-section-slide">
+                        <div className="titleSlide">{slide.title}</div>
+                        <div className="descriptionProjectSlide">
+                          {slide.description}
+                        </div>
+                        {slide.option && (
+                          <a
+                            className="hyperlinkToProjectWebsite"
+                            style={{ textDecoration: "none" }}
+                            href={slide.href}
+                            target="_blank"
+                          >
+                            {slide.option}
+                          </a>
+                        )}
+                      </div>
+                    </div>
+                    <div className="arrowContainer">
+                      <TiArrowRightThick
+                        className="right-arrow"
+                        onClick={nextSlide}
+                      />
+                    </div>
                   </div>
                 </Fragment>
               )

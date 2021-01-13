@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .iconSocialMedia {
@@ -61,4 +61,68 @@
 
 .hyperLinkToSocialMedia {
   text-decoration: none;
+}
+
+.textBehindTitleContactSectionSmallScreen {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .textBehindTitleContactSection {
+    font-size: 17px;
+    padding: 20px;
+    margin: 0 0 52px;
+  }
+  .iconsSocialMediaWrapper {
+    justify-content: center;
+  }
+  .iconSocialMedia {
+    font-size: 21px;
+    margin: 0 13px;
+  }
+}
+
+@media (max-width: 535px) {
+  .textBehindTitleContactSection {
+    font-size: 15px;
+    padding: 11px;
+  }
+  .iconSocialMedia {
+    font-size: 18px;
+    margin: 0px 9px;
+  }
+  .titleContactSection {
+    padding: 0 0 70px;
+  }
+}
+
+@media (max-width: 375px) {
+  .textBehindTitleContactSection {
+    display: none;
+  }
+  .textBehindTitleContactSectionSmallScreen {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    background-color: #2e294e;
+    width: max-content;
+    margin: 0 60px 60px;
+    border-radius: 22px;
+    border: 1px solid white;
+  }
+  .titleContactSection {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .textBehindTitleContactSectionSmallScreen {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 0;
+    border: none;
+  }
 }

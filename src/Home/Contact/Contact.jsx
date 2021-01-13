@@ -31,7 +31,11 @@ export function Contact() {
           className="animate__animated animate__animate__zoomIn"
         >
           <div className="textBehindTitleContactSection">
-            Keep in touch. Get connected. Grab a cup of coffee. Let's create it.
+            Grab a cup of coffee. Get connected. Let's create it.
+          </div>
+          <div className="textBehindTitleContactSectionSmallScreen">
+            Grab a cup of coffee. Get connected.
+            <br /> Let's create it.
           </div>
           <div className="iconsSocialMediaWrapper">
             <a

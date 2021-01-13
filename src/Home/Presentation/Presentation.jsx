@@ -37,14 +37,11 @@ export function Presentation() {
               <br />
               <br />
               Besides being a cat lover, I am a design-oriented front end
-              developer. My journey as a web developer had made me realize how
+              developer. My journey as a web developer has helped me realize how
               much I love creating User creative-and-friendly Interfaces looking
               for the best experience. <br />
-              <br />
-              From Argentina and currently living in the historic and magical
-              Edimburgh, UK.
-              <br />
-              <br />
+              <br />I flew all the way from Argentina to come and live in the
+              historic and magical Edimburgh, UK.
             </div>
           </div>
         </div>

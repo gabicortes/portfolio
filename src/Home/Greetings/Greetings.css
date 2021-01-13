@@ -44,3 +44,97 @@
   margin-left: 30px;
   font-size: 50px;
 }
+
+@media (max-width: 986px) {
+  .textWrapper {
+    padding: 100px 0 100px 80px;
+  }
+  .hiText {
+    font-size: 350px;
+  }
+  .callMeGabiText {
+    font-size: 85px;
+    padding-left: 14px;
+  }
+  .particlesWrapper {
+    height: 517px;
+  }
+}
+
+@media (max-width: 800px) {
+  .textWrapper {
+    padding: 100px 0 100px 50px;
+  }
+  .callMeGabiText {
+    font-size: 70px;
+    padding-left: 14px;
+  }
+  .hiText {
+    font-size: 300px;
+  }
+}
+
+@media (max-width: 715px) {
+  .textWrapper {
+    padding: 100px 0 80px 30px;
+  }
+  .callMeGabiText {
+    font-size: 58px;
+    padding-left: 14px;
+  }
+  .hiText {
+    font-size: 200px;
+  }
+  .codingSignRight {
+    margin-left: 22px;
+    font-size: 40px;
+  }
+  .codingSign {
+    font-size: 40px;
+  }
+  .particlesWrapper {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .textWrapper {
+    padding: 200px 0 80px 16px;
+  }
+  .callMeGabiText {
+    font-size: 40px;
+    padding-left: 6px;
+  }
+  .hiText {
+    font-size: 200px;
+  }
+  .codingSignRight {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .codingSign {
+    font-size: 25px;
+  }
+  .particlesWrapper {
+    height: 650px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .callMeGabiText {
+    font-size: 30px;
+    padding-left: 6px;
+  }
+  .hiText {
+    font-size: 150px;
+  }
+  .codingSignRight {
+    margin-left: 12px;
+    font-size: 25px;
+  }
+  .codingSign {
+    font-size: 12px;
+  }
+}

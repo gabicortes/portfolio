@@ -7,7 +7,7 @@ export const arraySliderBitacora = [
     image: imageSlideOne,
     title: "Bitacora Yogui",
     description:
-      " It is an Argentinian company which offers two different services: Ashtanga Yoga classes & Community Manager advice. The most challenging was find the way to link both activities showing how Martina, the founder, manages her greatest mixing both.",
+      "An Argentinian company which offers two different services: Ashtanga Yoga classes & Community Manager advice. The biggest challenge was finding the way to link both activities showing how Martina, the founder, manages to mix both interests to give her best.",
     option: "Visit Website",
     href: "https://bitacorayogui.com.ar",
   },
@@ -15,7 +15,7 @@ export const arraySliderBitacora = [
     image: bitacoraResponsiveImg,
     title: "Responsive Design",
     description:
-      "Same functionality both on smartphone, tablet or laptop. Every screen will be allowed to display the website and use all and each of the functionalities such as contact the Company, see the customers, Social media, etctera.",
+      "Same functionalities in all devices, smartphone, tablet or laptop. Every screen is allowed to display the website and to use all and each of the functionalities such as contact the Company, see the customers, Social media, etcetera.",
     option: "",
     href: "",
   },
@@ -23,7 +23,7 @@ export const arraySliderBitacora = [
     image: gifAPI,
     title: "Technologies used",
     description:
-      "Designed on the most modern minimalism style. Multiple page website programmed using HTML5, CSS3, Javascript, React & Node. Instagram API embedeed as a purpose of keeping updated the website. ",
+      "Designed with the most modern minimalistic style. Multiple-page website programmed using HTML5, CSS3, Javascript, React & Node. Instagram API embedded to keep the website updated.",
     option: "Find Repository",
     href: "https://github.com/gabicortes/bitacora-yogui",
   },

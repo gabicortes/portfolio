@@ -25,7 +25,7 @@
 .technologiesBoxContainer {
   position: relative;
   height: 700px;
-  width: 100%;
+  width: 92%;
   top: 200px;
 }
 
@@ -88,4 +88,57 @@
 }
 .technologiesBox8 {
   animation-delay: -21s;
+}
+
+@media (max-width: 600px) {
+  .clipPathVectorTechnologiesSection {
+    height: 75px;
+  }
+  .technologiesBoxContainer {
+    top: 110px;
+    width: 82%;
+  }
+  .technologiesBox {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  @keyframes rot {
+    from {
+      transform: rotate(0deg) translate(140px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translate(140px) rotate(-360deg);
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .titleTechnologies {
+    font-size: 40px;
+  }
+  .technologiesBoxContainer {
+    top: 110px;
+    left: 30%;
+    width: 23%;
+  }
+  .technologiesBox {
+    width: 33px;
+    height: 33px;
+    font-size: 13px;
+    padding: 18px;
+  }
+
+  @keyframes rot {
+    from {
+      transform: rotate(0deg) translate(125px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translate(125px) rotate(-360deg);
+    }
+  }
+  .particlesWrapperTechnologies {
+    height: 400px;
+  }
 }

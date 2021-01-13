@@ -7,7 +7,7 @@ export const arraySliderHouseOfDonuts = [
     image: photoSlideOne,
     title: "House of Donuts",
     description:
-      "A one-year-old company located in the center of one of the Buenos Aires traditional neighbourhood: Quilmes. Their main service is doughnuts on-site sales. They are analyzing the possibility of selling online which means a new development for the website.",
+      "A one-year-old company located in the centre of one of the Buenos Aires most traditional boroughs: Quilmes. Their main service is doughnuts on-site sales. They are considering the possibility of starting selling online which will mean a new development for the website.",
     option: "Visit website",
     href: "https://houseofdonuts.com.ar",
   },
@@ -15,7 +15,7 @@ export const arraySliderHouseOfDonuts = [
     image: imageHouseOfDonutsResponsive,
     title: "Responsive Design",
     description:
-      "Complex design. User-friendly interface. Most of their customers use smartphone so the app is completely adapted to have the same functionalities as on a computer but in a simpler way",
+      "Complex design. User-friendly interface. Most of their customers use smartphones so the app is completely adapted to have the same functionalities as on a computer but in a much simpler way.",
     option: "",
     href: "",
   },
@@ -23,7 +23,7 @@ export const arraySliderHouseOfDonuts = [
     image: GIFhouseOfDonuts,
     title: "Techonologies Used",
     description:
-      "Single-page website developed using React Js. Instagram API and MapBox API are embedeed and allow the user be closer to their customers helping them finding the way to the shop or keeping updated the website with the latest news posted on Instagram.",
+      "Single-page website developed using HTML5, CSS 3, Node js. and React Js. MapBox API and Instagram API are embedded to help the customers find the way to the shop and to keep the website updated with the latest posts on Social Media.",
     option: "Find Repository",
     href: "https://github.com/gabicortes/HouseOfDonuts",
   },

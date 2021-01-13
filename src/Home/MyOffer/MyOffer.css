@@ -37,7 +37,7 @@
   height: 50px;
   width: auto;
   padding: 40px;
-  border-radius: 100%;
+  border-radius: 49px;
   color: #2e294e;
   background-color: white;
   border: 1px solid #2e294e;
@@ -48,6 +48,7 @@
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1.2px;
+  text-align: center;
 }
 
 .textVectorIcon {
@@ -62,4 +63,51 @@
   justify-content: center;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 800px) {
+  .clipPathVectorMyOfferSection1 {
+    height: 75px;
+  }
+  .circleWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20%;
+  }
+  .wrapperTitle {
+    padding: 0px 0 20px;
+  }
+
+  .wrapperCirclesUXUI {
+    flex-direction: column;
+  }
+  .textVectorIcon {
+    width: 96%;
+  }
+  .titleVectorIcon {
+    font-size: 24px;
+    letter-spacing: 1.1px;
+  }
+  .vectorIcon {
+    height: 45px;
+    padding: 28px;
+    border-radius: 39px;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapperCirclesUXUI {
+    flex-direction: column;
+  }
+  .circleWrapper {
+    padding-bottom: 60px;
+  }
+  .titleVectorIcon {
+    font-size: 26px;
+  }
+  .wrapperTitle {
+    padding-top: 20px;
+    font-size: 40px;
+  }
 }
