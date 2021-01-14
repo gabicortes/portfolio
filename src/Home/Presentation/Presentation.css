@@ -1,5 +1,8 @@
 .wrapperPresentationSection {
   background-color: #dadada;
+  border-top: 100% solid #e37971;
+  position: relative;
+  padding-bottom: 119px;
 }
 .wrapperWhoIam {
   display: flex;
@@ -7,15 +10,20 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  padding: 100px 5% 50px;
+  padding: 100px 5% 170px;
 }
 
 .clipPathVectorPresentationSection {
-  width: 100%;
+  /* width: 100%;
   height: 100px;
   -webkit-clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
   clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
-  background-color: #e37971;
+  background-color: #e37971;*/
+  width: 100vw;
+  border-top: 120px solid transparent;
+  border-left: 100vw solid #dadada;
+  position: absolute;
+  top: -119px;
 }
 
 .containerPhotoPresentation {
@@ -64,9 +72,6 @@
 }
 
 @media (max-width: 800px) {
-  .clipPathVectorPresentationSection {
-    height: 75px;
-  }
   .photoGabiPresentation {
     height: 250px;
   }
@@ -80,9 +85,6 @@
 }
 
 @media (max-width: 600px) {
-  .clipPathVectorPresentationSection {
-    height: 75px;
-  }
   .photoGabiPresentation {
     height: 250px;
   }

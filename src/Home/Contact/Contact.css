@@ -1,12 +1,13 @@
 .contactWrapper {
   background-color: #2e294e;
+  position: relative;
 }
 .clipPathVectorContactSection {
-  width: 100%;
-  height: 100px;
-  -webkit-clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
-  clip-path: polygon(0 -201%, 104% 7%, 100% 100%, 0% 0);
-  background-color: #dadada;
+  width: 100vw;
+  border-top: 120px solid transparent;
+  border-left: 100vw solid #2e294e;
+  position: absolute;
+  top: -119px;
 }
 
 .textSectionContact {
@@ -56,7 +57,7 @@
 .iconSocialMedia:hover {
   color: #2e294e;
   background-color: white;
-  border: 1px solid #0892a5;
+  border: 1px solid #a35752;
 }
 
 .hyperLinkToSocialMedia {

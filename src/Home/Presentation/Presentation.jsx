@@ -36,12 +36,17 @@ export function Presentation() {
               Nice to meet you, I am Gabi!
               <br />
               <br />
-              Besides being a cat lover, I am a design-oriented front end
-              developer. My journey as a web developer has helped me realize how
-              much I love creating User creative-and-friendly Interfaces looking
-              for the best experience. <br />
+              As a design-oriented front end developer who is fond of cats, when
+              the moment came for the setting up of my startup I knew that the
+              brand should show a bit of myself, so I decided to name it
+              Kittyscripts.
+              <br />
+              <br />
+              My journey as a web developer has helped me realize how much I
+              love creating User creative-and-friendly Interfaces looking for
+              the best experience. <br />
               <br />I flew all the way from Argentina to come and live in the
-              historic and magical Edimburgh, UK.
+              historic and magical Edimburgh.
             </div>
           </div>
         </div>

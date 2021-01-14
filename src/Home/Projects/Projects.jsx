@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import "./Projects.css";
-import bitacoraYogui from "./bitacora-yogui.jpg";
-import houseOfDonuts from "./house-of-donuts.jpg";
+import bitacoraYogui from "./bitacora-yogui.png";
+import houseOfDonuts from "./house-of-donuts.png";
 import {
   TiArrowRightThick,
   TiArrowLeftThick,

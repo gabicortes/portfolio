@@ -4,9 +4,13 @@
 
 .particlesWrapper {
   width: 100%;
-  height: 700px;
+  height: 720px;
   overflow: hidden;
   display: flex;
+  /*padding-bottom: 119px;*/
+}
+.wrapperHiCallMeGabi {
+  background-color: #dadada;
 }
 
 .textWrapper {

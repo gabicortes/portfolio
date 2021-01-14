@@ -146,6 +146,7 @@ export function Greetings() {
           }}
         />
       </div>
+      <div className="clipPathVectorGreetingsSection" />
     </div>
   );
 }
